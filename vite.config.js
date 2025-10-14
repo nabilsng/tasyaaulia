@@ -7,5 +7,6 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   resolve: { alias: { '@': path.resolve(__dirname, './src') } },
-  base: '/tasyaaulia/', // penting untuk GitHub Pages (sub-path)
+  base: '/tasyaaulia/',
+  build: { outDir: 'docs' } // penting untuk GitHub Pages (sub-path)
 })
