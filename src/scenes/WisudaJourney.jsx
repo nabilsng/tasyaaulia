@@ -25,15 +25,10 @@ const AVATAR_ME = withBase(AVATAR_ME_RAW);
 /* ================== DATA ================== */
 const HEADER_PHOTOS_RAW = [
   "/media/journey/01.jpeg",
-  "/media/journey/02.png",
-  "/media/journey/03.png",
-  "/media/journey/04.png",
-  "/media/journey/05.png",
-  "/media/journey/06.png",
-  "/media/journey/07.png",
-  "/media/journey/08.png",
-  "/media/journey/09.png",
-  "/media/journey/10.png",
+  "/media/journey/02.jpeg",
+  "/media/journey/03.jpeg",
+  "/media/journey/04.jpeg",
+  "/media/journey/05.jpeg",
 ];
 const HEADER_PHOTOS = HEADER_PHOTOS_RAW.map(withBase);
 
@@ -60,7 +55,7 @@ const TIMELINE_RAW = [
     subtitle: "Seminar Hasil",
     desc:
       "Dari cuma draft ide, akhirnya di Semhas, Tasya lihat hasil nyatanya. Semua progres terbayar lunas. Keren!",
-    photos: ["/media/journey/h1.png", "/media/journey/h2.png"],
+    photos: ["/media/journey/h1.jpeg", "/media/journey/h2.jpeg"],
   },
   {
     key: "sidang",
@@ -76,7 +71,7 @@ const TIMELINE_RAW = [
     subtitle: "Wisuda",
     desc:
       "Dan jeng jeng jeng... Wisuda! Toga terpasang, senyum manis jadi signature look Tasya. Semua perjuangan berbuah manis pada hari itu. Sekarang tinggal siap-siap jemput masa depan yang super cerah!",
-    photos: ["/media/journey/w1.jpeg", "/media/journey/w2.png"],
+    photos: ["/media/journey/w1.jpeg", "/media/journey/w2.jpeg"],
   },
 ];
 const TIMELINE = TIMELINE_RAW.map((s) => ({

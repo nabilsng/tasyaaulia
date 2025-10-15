@@ -178,11 +178,11 @@ export default function GradGiftSite() {
 
   const SCENES = [
     { key: "intro",    component: (p) => <Intro {...p} data={DATA_RESOLVED} />, options: { hideChrome: true } },
-    { key: "memory",   component: (p) => <MiniGameMemory {...p} data={DATA_RESOLVED} />, options: { hideChrome: true } },
-    { key: "catch",    component: (p) => <MiniGameCatch {...p} data={DATA_RESOLVED} />, options: { hideChrome: true } },
-    { key: "arrange",  component: (p) => <MiniGameArrange {...p} data={DATA_RESOLVED} />, options: { hideChrome: true } },
-    { key: "spotdiff", component: (p) => <GameSpotDiff {...p} data={DATA_RESOLVED} />, options: { hideChrome: true } },
-    { key: "journey",  component: (p) => <WisudaJourney {...p} data={DATA_RESOLVED} />, options: { hideChrome: true } },
+    { key: "memory",   component: (p) => <MiniGameMemory {...p} data={DATA_RESOLVED} /> },
+    { key: "catch",    component: (p) => <MiniGameCatch {...p} data={DATA_RESOLVED} /> },
+    { key: "arrange",  component: (p) => <MiniGameArrange {...p} data={DATA_RESOLVED} /> },
+    { key: "spotdiff", component: (p) => <GameSpotDiff {...p} data={DATA_RESOLVED} /> },
+    { key: "journey",  component: (p) => <WisudaJourney {...p} data={DATA_RESOLVED} /> },
     { key: "portfolio", component: (p) => <PortfolioGift {...p} data={DATA_RESOLVED} /> },
   ];
 
