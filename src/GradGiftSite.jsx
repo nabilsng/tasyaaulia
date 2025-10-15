@@ -182,7 +182,7 @@ export default function GradGiftSite() {
     { key: "catch",    component: (p) => <MiniGameCatch {...p} data={DATA_RESOLVED} /> },
     { key: "arrange",  component: (p) => <MiniGameArrange {...p} data={DATA_RESOLVED} /> },
     { key: "spotdiff", component: (p) => <GameSpotDiff {...p} data={DATA_RESOLVED} /> },
-    { key: "journey",  component: (p) => <WisudaJourney {...p} data={DATA_RESOLVED} /> },
+    { key: "journey",  component: (p) => <WisudaJourney {...p} data={DATA_RESOLVED} />, options: { hideChrome: true } },
     { key: "portfolio", component: (p) => <PortfolioGift {...p} data={DATA_RESOLVED} /> },
   ];
 
